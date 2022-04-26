@@ -69,7 +69,7 @@ body {
     margin-top: 50px;
     margin-left: 3.3%;
     box-shadow: 8px 8px 4px rgb(34, 33, 33);
-    height: 560px;
+    height: 500px;
 }
 .flex {
     display: flex;
@@ -78,6 +78,9 @@ body {
 }
 .box {
     margin-bottom: 50px;
+}
+.justify-content {
+    justify-content: flex-start;
 }
 
 /*Header*/
@@ -101,32 +104,40 @@ body {
 
 .list-section {
     background: rgb(211, 203, 164);
-    padding-bottom: 40px;
+    padding-bottom: 20px;
+
 }
 
 
 .col-1 ol li {
-    font-size: 20px;
-    padding-top: 10px;
+    font-size: 17px;
+    padding-top: 8px;
+    list-style-type: decimal;
     line-height: 1.7;
     text-transform: capitalize;
-    list-style-type: decimal;
     margin-left: 40px;
     color: rgb(211, 203, 164);
 }
 
-.col-2 ul li {
-    font-size:20px;
-    padding-top: 10px;
+.col-2 ul li{
+    font-size:17px;
+    padding-top: 8px;
     line-height: 1.7;
     text-transform: capitalize;
     margin-left: 40px;
     color: rgb(211, 203, 164);
     
 }
+.ul {
+    list-style-type: disc;
+}
+.ol {
+    list-style-type: decimal;
+}
+
 .col-3 ul li {
-    font-size:20px;
-    padding-top: 10px;
+    font-size: 17px;
+    padding-top: 8px;
     line-height: 1.7;
     text-transform: capitalize;
     margin-left: 40px;
@@ -136,15 +147,16 @@ body {
 
 
 /*Article*/
-h2 {
+dt {
     font-size: 30px;
     line-height: 1.7;
 
 }
 
-p {
+dd {
     font-size: 17px;
     font-weight: 200px;
+    margin-left: 40px;
     
 }
 
@@ -152,8 +164,8 @@ p {
 
 
 .footer {
-    padding: 30PX 0;
-    background: rgb(91, 89, 89);
+    padding: 40px 0;
+    background: #035878;
 }
 
 
